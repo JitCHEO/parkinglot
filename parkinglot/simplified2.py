@@ -125,10 +125,16 @@ def main():
 
             v_type = int(input("> "))
             plate = input("Enter vehicle registration number: ")
-
             vehicle = parking_lot.park_vehicle(v_type, plate)
             if vehicle is not None:
+                # #####
                 print(f"Vehicle parked successfully. Fee: ${vehicle.fee}")
+                report.append(f"Parked: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), Fee: ${vehicle.fee}")
+
+
+
+                # print(f"Vehicle parked successfully. Fee: ${vehicle.fee}")
+                # report.append(f"Parked: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)})")
 
         elif option == "2":
             plate = input("Enter vehicle registration number: ")
@@ -137,6 +143,8 @@ def main():
                 fee = parking_lot.calculate_fee(vehicle)
                 if fee is not None:
                     print(f"Vehicle exited successfully. Fee: ${fee:.2f}")
+                    report.append(f"Exited: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), Fee: ${fee:.2f}")
+
                 else:
                     print("Error: Fee calculation failed.")
 
@@ -171,6 +179,14 @@ def main():
             # Generate the report and write it to a file
             timestamp = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())
             filename = f"parking_report_{timestamp}.txt"
+
+
+    # Calculate the fees for all parked vehicles before generating the report
+            for vehicle in parking_lot.spaces:
+                if vehicle is not None and vehicle.fee is None:
+                    parking_lot.calculate_fee(vehicle)
+
+
 
             with open(filename, "w") as file:
                 file.write("Parking Lot Report\n")

@@ -1,0 +1,7 @@
+Parking Lot Report
+-------------------
+Parked: 123 (Car), Fee: $None
+Parked: 1234 (Truck), Fee: $None
+Parked: 12345 (Motorcycle), Fee: $None
+Parked: asd123 (Car), Fee: $None
+Parked: qwe123 (Truck), Fee: $None
