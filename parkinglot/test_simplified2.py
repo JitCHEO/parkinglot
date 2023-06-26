@@ -24,3 +24,12 @@ def test_set_entry_time(create_vehicle):
     current_time = time.time()
     vehicle.entry_time = current_time - 3600
     assert vehicle.entry_time == current_time - 3600
+
+    
+
+def test_calculate_fee():
+    parking_lot = ParkingLot(10)
+    vehicle = Vehicle(1, "ABC123", entry_time=time.time() - 7200)  # Vehicle parked for 2 hours
+    parking_lot.spaces[0] = vehicle
+    fee = parking_lot.calculate_fee(vehicle)
+    assert fee == 10.0  # Assuming $5 per hour, the fee for 2 hours should be $10
