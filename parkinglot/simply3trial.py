@@ -1,14 +1,16 @@
 
-
 import time
 
+
 class Vehicle:
-   def __init__(self, v_type, plate, entry_time=None, exit_time=None, fee=None):
+   def __init__(self, v_type, plate, entry_time=None, exit_time=None, fee=None, entry_datetime=None, exit_datetime=None):
         self.type = v_type
         self.plate = plate
         self.entry_time = entry_time
         self.exit_time = exit_time
         self.fee = fee
+        self.entry_datetime = entry_datetime
+        self.exit_datetime = exit_datetime
 
 
 
@@ -25,7 +27,8 @@ class ParkingLot:
         for i in range(len(self.spaces)):
           if self.spaces[i] is None:
                 current_time = time.time()
-                vehicle = Vehicle(v_type, plate, entry_time=current_time)
+                current_datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+                vehicle = Vehicle(v_type, plate, entry_time=current_time, entry_datetime=current_datetime)
                 self.spaces[i] = vehicle
                 self.avail_spaces -= 1
                 print("Vehicle parked successfully.")
@@ -39,9 +42,11 @@ class ParkingLot:
         for i in range(len(self.spaces)):
             if self.spaces[i] and self.spaces[i].plate == plate:
                 current_time = time.time()
+                current_datetime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
                 vehicle = self.spaces[i]
                 vehicle.exit_time = current_time
-                fee = self.calculate_fee(vehicle)  # Calculate the fee for the exiting vehicle
+                vehicle.exit_datetime = current_datetime
+                fee = self.calculate_fee(vehicle)
                 self.spaces[i] = None
                 self.avail_spaces += 1
                 return vehicle, fee
@@ -109,7 +114,8 @@ def main():
             vehicle = parking_lot.park_vehicle(v_type, plate)
             if vehicle is not None:
                 # #####
-                report.append(f"Parked: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), Fee: ${vehicle.fee}")
+                report.append(f"Parked: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), "
+                              f"Entry: {vehicle.entry_datetime}, Fee: ${vehicle.fee}")
                 
 
         elif option == "2":
@@ -118,7 +124,8 @@ def main():
             if vehicle is not None:
                 if fee is not None:
                     print(f"Vehicle exited successfully. Fee: ${fee:.2f}")
-                    report.append(f"Exited: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), Fee: ${fee:.2f}")
+                    report.append(f"Exited: {vehicle.plate} ({parking_lot.get_vehicle_type(vehicle.type)}), "
+                                  f"Exit: {vehicle.exit_datetime}, Fee: ${fee:.2f}")
                 else:
                     print("Error: Fee calculation failed.")
 
@@ -132,7 +139,12 @@ def main():
             filename = f"parking_report_{timestamp}.txt"
 
             with open(filename, "w") as file:
-                file.write("\n".join(report))
+                for entry in report:
+                    file.write(entry + "\n")
+
+
+            # with open(filename, "w") as file:
+            #     file.write("\n".join(report))
 
             print(f"Report generated and saved as {filename}.")
             break

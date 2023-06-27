@@ -1,0 +1,6 @@
+Parked: 123 (Car), Entry: 2023-06-27 20:20:20, Fee: $None
+Parked: 1234 (Truck), Entry: 2023-06-27 20:20:22, Fee: $None
+Parked: 12345 (Motorcycle), Entry: 2023-06-27 20:20:24, Fee: $None
+Exited: 12345 (Motorcycle), Exit: 2023-06-27 20:21:16, Fee: $0.07
+Exited: 1234 (Truck), Exit: 2023-06-27 20:21:20, Fee: $0.08
+Exited: 123 (Car), Exit: 2023-06-27 20:21:22, Fee: $0.09
