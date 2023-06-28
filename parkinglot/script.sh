@@ -1,1 +1,1 @@
-python3 simplifymain.py
+python3 main.py
