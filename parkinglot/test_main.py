@@ -56,7 +56,7 @@ def test_calculate_fee():
     parking_lot.spaces[0] = vehicle
     # to calc parking fee based on duration of vehicle parking
     fee = parking_lot.calculate_fee(vehicle)
-    assert fee == 10  # Assuming $4 per hour, the fee for 2 hours should be $8
+    assert fee == 8  # Assuming $4 per hour, the fee for 2 hours should be $8
 
 def test_park_vehicle(create_vehicle, parking_lot):
     vehicle = create_vehicle
