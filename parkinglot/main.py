@@ -5,8 +5,6 @@ import time
 from vehicle import *
 from parkinglot import ParkingLot
 
-
-
 def main():
     # user input number of parking spaces
     total_spaces = int(input("Enter the total number of parking spaces: "))
