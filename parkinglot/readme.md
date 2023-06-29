@@ -4,9 +4,16 @@
 ### Link to source control repository
 - (Github)[https://github.com/risabhmishra/parking_management_system/tree/master]
 
-### List of features
+# List of features
 ## 3 features
+1. Take user vehicle types & registration
+2. Calculate parking fee based on vehicle entry & exit time
+3. Generate a report on user exit to display vehicle type with registration, time enter & exit as well as parking fee.
+
 ## Desciption of each features
+1. 
+2. 
+3. 
 
 ### Implementation plan
  - outlines how each feature will be implemented and a checklist of tasks for each feature
