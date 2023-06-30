@@ -65,36 +65,36 @@
     
 ## Prioritising implementation of features, or checklist items within a feature
 ## Feature 1 (Vehicle type & registration)
- ## High priority
+ - ## High priority
     - User interface for rego number.
 
- ## Medium/Low priority
+ - ## Medium/Low priority
     - Input validation for rego number.
     - Database/datatructure to store veh details.
     - Functionality to save info.
 
 ## Feature 2 (Parking spaces)
- ## High priority
+ - ## High priority
     - Tracking availability of parking spaces
     - Logic to assign parking spaces baed on empty parking spaces.
 
- ## Medium/Low priority
+ - ## Medium/Low priority
     - Retrieving vehicles details
     - Updating database/report to reflect parking spots.
 
 ## Feature 3 (Fee calculations)
- ## High priority
+ - ## High priority
     - Ability to capture entry & exit time.
 
- ## Medium/Low priority
+ - ## Medium/Low priority
     - Setting up hourly rate & generate fee based on the time difference.
     - Display the correct fee to the user.
 
 ## Feature 4 (Generating report)
- ## High priority
+ - ## High priority
     - Retrieve veh details & entry/exit time for vehicle.
 
- ## Medium/Low priority
+ - ## Medium/Low priority
     - Implement the correct fee based on the time difference.
     - Generate report based on the information that I requested for.
 
