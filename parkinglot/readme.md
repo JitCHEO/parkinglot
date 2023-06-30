@@ -5,7 +5,7 @@
 - (Github)[https://github.com/risabhmishra/parking_management_system/tree/master]
 
 # List of features
-## 3 features
+## 4 features
 1. Take user vehicle types & registration.
 2. Allocate parking space based on the number of parking spaces available.
 3. Calculate parking fee based on vehicle entry & exit time.
@@ -18,8 +18,50 @@
 4. When user initiate exit of the app, report will be generated on what type of vehicles & registration number, entry & exit time, as well as fee calculated.
 
 # Implementation plan
-### Outlines how each feature will be implemented and a checklist of tasks for each feature
-- 
+## How each feature will be implemented and a checklist of tasks for each feature
+## Feature 1 (Vehicle type & registration)
+- ### Implementation
+    1. User interface capture vehicle type & rego number.
+    2. Form & input fields.
+    3. Check input that it meet the requirement.
+
+- ### Checklist of tasks
+    1. User interface designation for veh info input.
+    2. Input validation for rego #.
+
+## Feature 2 (Parking spaces)
+- ### Implementation
+    1. Determine number of empty parking spaces.
+    2. Collect veh. details from the code.
+    3. Assign parking space to type of vehicle based on parking spaces.
+
+- ### Checklist of tasks
+    1. Function that track the parking spaces.
+    2. Retrieve vehicle details from user inputs.
+    3. Allocate parking spaces depending on availability of lots.
+    4. Update parking lot spaces with the registration number and type of vehicle.
+
+## Feature 3 (Fee calculations)
+- ### Implementation
+    1. Capture entry & exit time by importing package.
+    2. Calculate time difference between entry & exit.
+    3. Apply hourly rate to check the fee.
+    4. Display correct fee to user.
+
+- ### Checklist of tasks
+    1. Design interface for user.
+    2. Implement calculation to calculate the time difference.
+    3. Display fee calculation to user.
+
+## Feature 4 (Generating report)
+- ### Implementation
+    1. Retrieve vehicles details with entry & exit time.
+    2. Generate report containing vehicle type, rego number, entry & exit time as well as calc fee.
+
+- ### Checklist of tasks
+    1. Fetch entry & exit time for vehicle.
+    2. Generate correct information on the report.
+    
 ### Prioritise the implementation of different features, or checklist items within a feature
 - 
 ### Provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
