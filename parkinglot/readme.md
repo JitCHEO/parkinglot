@@ -100,14 +100,16 @@
 
 
 ## Deadline, duration or other time indicator for each feature or checklist/checklist-item
-## Feature 1 (Vehicle type & registration)
+- ## Feature 1 (Vehicle type & registration)
     - A day to include vehicle information, entry/exit time.
-## Feature 2 (Parking spaces)
-    - 
-## Feature 3 (Fee calculations)
+- ## Feature 2 (Parking spaces)
+    - 2 - 3 days to track the parkinglot availability, implement code to assign parking spaces according to availability, collecting vehicle informations 
 
-## Feature 4 (Generating report)
+- ## Feature 3 (Fee calculations)
+    - 1 - 2 days to design on capturing the correct time on entering & exiting. Function to calculate the parking fee based on the hourly rate set & displaying thee fee on exit.
 
+- ## Feature 4 (Generating report)
+    - 2 - 3 days to have function to generate a report with the right vehicle info, time as well as parking fees. Retrieving vehicle details from the code.
 
 
 # Project management platform
