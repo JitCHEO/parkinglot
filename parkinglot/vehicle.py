@@ -14,7 +14,3 @@ class Vehicle:
         # additional attributes to store them as datetime objects.
         self.exit_datetime = exit_datetime
 
-
-
-
-

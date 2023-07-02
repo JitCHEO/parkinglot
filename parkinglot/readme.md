@@ -4,6 +4,9 @@
 ## Link to source control repository
 - (Github)[https://github.com/risabhmishra/parking_management_system/tree/master]
 
+## Presentation link
+- 
+
 # List of features
 ## 4 features
 1. Take user vehicle types & registration.
@@ -63,7 +66,7 @@
     1. Fetch entry & exit time for vehicle.
     2. Generate correct information on the report.
     
-## Prioritising implementation of features, or checklist items within a feature
+# Prioritising implementation of features, or checklist items within a feature
 ## Feature 1 (Vehicle type & registration)
  - ## High priority
     - User interface for rego number.
@@ -99,7 +102,7 @@
     - Generate report based on the information that I requested for.
 
 
-## Deadline, duration or other time indicator for each feature or checklist/checklist-item
+# Deadline, duration or other time indicator for each feature or checklist/checklist-item
 - ## Feature 1 (Vehicle type & registration)
     - A day to include vehicle information, entry/exit time.
 - ## Feature 2 (Parking spaces)
@@ -116,11 +119,27 @@
  - [monday.com](https://jit74683.monday.com/boards/1804902174)
 
 
-## Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
- ## Must include the following:
-- steps to install the application
-- any dependencies required by the application to operate
-- any system/hardware requirements
-- how to use any command line arguments made for the application
+# Help documentation
+1. Steps to install the application
+    - Download ParkingLot terminal app from a source( e.g., Github repository).
+    - Run installer file & follow the instructions.
+    - Once installation completed correctly, application will then ready to use.
 
+2. Dependencies required by the application to operate
+    - Depending on OS system ( MacOS, Windows, Linux)
+
+3. Any system/hardware requirements
+    - Operating system that meets the minimum supported version
+    - Processor
+    - RAM (Min recommended RAM : 8GB)
+    - Disk space ( Min disk space 200MB)
+    - Display is up to user.
+    
+4. How to use any command line arguments made for the application
+    - Launching application by double-clicking the icon or excute the command in the terminal.
+    - Follow on screen instructions to navigate.
+    - Enter vehicle type and vehicle registration number when prompted.
+    - Entry & exit time will be recorded on entering & exiting
+    - Application will allocate parking space based on avilability, calculate fee and generate report on exit.
+    - Refer to report or application interface for more informations.
  
