@@ -5,7 +5,7 @@
 - (Github)[https://github.com/risabhmishra/parking_management_system/tree/master]
 
 ## Presentation link
-- 
+- (Youtube) []
 
 # List of features
 ## 4 features
@@ -103,15 +103,15 @@
 
 
 # Deadline, duration or other time indicator for each feature or checklist/checklist-item
-- ## Feature 1 (Vehicle type & registration)
+- ###` Feature 1 (Vehicle type & registration)
     - A day to include vehicle information, entry/exit time.
-- ## Feature 2 (Parking spaces)
+- ### Feature 2 (Parking spaces)
     - 2 - 3 days to track the parkinglot availability, implement code to assign parking spaces according to availability, collecting vehicle informations 
 
-- ## Feature 3 (Fee calculations)
+- ### Feature 3 (Fee calculations)
     - 1 - 2 days to design on capturing the correct time on entering & exiting. Function to calculate the parking fee based on the hourly rate set & displaying thee fee on exit.
 
-- ## Feature 4 (Generating report)
+- ### Feature 4 (Generating report)
     - 2 - 3 days to have function to generate a report with the right vehicle info, time as well as parking fees. Retrieving vehicle details from the code.
 
 
@@ -120,22 +120,22 @@
 
 
 # Help documentation
-1. Steps to install the application
+1. ### Steps to install the application
     - Download ParkingLot terminal app from a source( e.g., Github repository).
     - Run installer file & follow the instructions.
     - Once installation completed correctly, application will then ready to use.
 
-2. Dependencies required by the application to operate
+2. ### Dependencies required by the application to operate
     - Depending on OS system ( MacOS, Windows, Linux)
 
-3. Any system/hardware requirements
+3. ### Any system/hardware requirements
     - Operating system that meets the minimum supported version
     - Processor
     - RAM (Min recommended RAM : 8GB)
     - Disk space ( Min disk space 200MB)
     - Display is up to user.
     
-4. How to use any command line arguments made for the application
+4. ### How to use any command line arguments made for the application
     - Launching application by double-clicking the icon or excute the command in the terminal.
     - Follow on screen instructions to navigate.
     - Enter vehicle type and vehicle registration number when prompted.
