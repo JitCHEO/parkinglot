@@ -117,7 +117,8 @@
 
 # Project management platform
  - [monday.com](https://jit74683.monday.com/boards/1804902174)
- - ![monday project management screenshot](./monday.com.png)
+
+ ![monday project management screenshot](./monday.com.png)
 
 
 # Help documentation
