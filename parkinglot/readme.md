@@ -5,7 +5,7 @@
 - (Github)[https://github.com/risabhmishra/parking_management_system/tree/master]
 
 ## Presentation link
-- (Youtube) []
+- (Youtube) [https://youtu.be/yKUIIf_Pmgc]
 
 # List of features
 ## 4 features
@@ -140,7 +140,7 @@
     - Launching application by double-clicking the icon or excute the command in the terminal.
     - Follow on screen instructions to navigate.
     - Enter vehicle type and vehicle registration number when prompted.
-    - Entry & exit time will be recorded on entering & exiting
+    - Entry & exit time will be recorded on entering & exiting.
     - Application will allocate parking space based on avilability, calculate fee and generate report on exit.
     - Refer to report or application interface for more informations.
  
