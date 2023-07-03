@@ -135,7 +135,7 @@
     - Processor
     - RAM (Min recommended RAM : 8GB)
     - Disk space ( Min disk space 200MB)
-    - Display is up to user.
+    - Display is up to user
     
 4. ### How to use any command line arguments made for the application
     - Launching application by double-clicking the icon or excute the command in the terminal.
