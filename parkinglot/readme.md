@@ -95,7 +95,7 @@
 
 ## Feature 4 (Generating report)
  - ### High priority
-    - Retrieve veh details & entry/exit time for vehicle.
+    - Retrieve vehicle details & entry/exit time for vehicle.
 
  - ### Medium/Low priority
     - Implement the correct fee based on the time difference.
