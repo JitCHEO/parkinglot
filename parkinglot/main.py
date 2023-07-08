@@ -51,6 +51,9 @@ def main():
                                   f"Exit: {vehicle.exit_datetime}, Fee: ${fee:.2f}")
                 else:
                     print("Error: Fee calculation failed.")
+            
+            else:
+                print("Error: Vehicle registration number not provided.")
 
         # display status of the parking lot whether is full or empty
         elif option == "3":
