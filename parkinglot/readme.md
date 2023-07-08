@@ -119,6 +119,7 @@
  - [monday.com](https://jit74683.monday.com/boards/1804902174)
 
  ![monday project management screenshot](./monday.com.png)
+ - I have been using this platform as I find it simple to use for beginner like me to begin managing my work.
 
 
 # Help documentation
