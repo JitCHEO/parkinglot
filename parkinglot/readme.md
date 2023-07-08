@@ -127,6 +127,10 @@
     - Run installer file & follow the instructions.
     - Once installation completed correctly, application will then ready to use.
 
+    ### Running on Terminal
+    - For running application on the terminal, please open the correct folder on the terminal.
+    - Please follow steps 4 to run the terminal app.
+
 2. ### Dependencies required by the application to operate
     - Depending on OS system ( MacOS, Windows, Linux)
 
