@@ -138,10 +138,16 @@
     - Display is up to user
     
 4. ### How to use any command line arguments made for the application
-    - Launching application by double-clicking the icon or excute the command in the terminal.
-    - Follow on screen instructions to navigate.
-    - Enter vehicle type and vehicle registration number when prompted.
-    - Entry & exit time will be recorded on entering & exiting.
-    - Application will allocate parking space based on avilability, calculate fee and generate report on exit.
+    - Excute the command in the terminal by opening parkinglot folder.
+        - python3 main.py if latest python is installed in the terminal else python main.py
+        - use (python --version) to check what version is in the OS.
+    - User determine the number of available parking spaces.
+    - Clicking the available options below will:
+        - Option 1: Enter vehicle type and vehicle registration number when prompted.
+        - Entry & exit time will be recorded on entering & exiting.
+        - Option 2: Vehicle will exit the parking space.
+        - Option 3: App will display whether parking space is empty or taken.
+        - Option 4: App will exit and a report will be generated.
+    - In short, this application will allocate parking space based on avilability, calculate fee and generate report on exit.
     - Refer to report or application interface for more informations.
  
