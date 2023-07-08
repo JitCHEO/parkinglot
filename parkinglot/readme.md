@@ -143,6 +143,7 @@
     - Display is up to user
     
 4. ### How to use any command line arguments made for the application
+    ### <u>Running the terminal application</u>
     - Excute the command in the terminal by opening parkinglot folder.
         - python3 main.py if latest python is installed in the terminal else python main.py
         - use (python --version) to check what version is in the OS.
@@ -153,6 +154,13 @@
         - Entry & exit time will be recorded on entering & exiting.
         - Option 3: App will display whether parking space is empty or taken.
         - Option 4: App will exit and a report will be generated.
-    - In short, this application will allocate parking space based on avilability, calculate fee and generate report on exit.
     - Refer to report or application interface for more informations.
- 
+
+    ### <u>Testing the terminal application</u>
+    - Please check if virtualenv version is installed by running 'virtualenv --version'.
+    - Else run 'pip install virtualenv" to install virtualenv.
+    - Once Virtualenv is installed:
+        1. Type 'python3 -m venv .venv'
+        2. Type 'source .venv/bin/activate'   
+        3. Type 'pytest' to run the testing of the app.
+        4. Type 'deactivate' to exit the virtual testing app.
