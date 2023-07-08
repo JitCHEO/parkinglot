@@ -124,12 +124,12 @@
 
 # Help documentation
 1. ### Steps to install the application
-    - Download ParkingLot terminal app from a source( e.g., Github repository).
+    - Download ParkingLot terminal app from a source( e.g, Github repository).
     - Run installer file & follow the instructions.
     - Once installation completed correctly, application will then ready to use.
 
-    #### Running on Terminal
-    - For running application on the terminal, please open the correct folder on the terminal.
+    #### Running in the Terminal
+    - For running application on the terminal, please open the correct folder in the terminal.
     - Please follow steps 4 to run the terminal app.
 
 2. ### Dependencies required by the application to operate
@@ -149,8 +149,8 @@
     - User determine the number of available parking spaces.
     - Clicking the available options below will:
         - Option 1: Enter vehicle type and vehicle registration number when prompted.
-        - Entry & exit time will be recorded on entering & exiting.
         - Option 2: Vehicle will exit the parking space.
+        - Entry & exit time will be recorded on entering & exiting.
         - Option 3: App will display whether parking space is empty or taken.
         - Option 4: App will exit and a report will be generated.
     - In short, this application will allocate parking space based on avilability, calculate fee and generate report on exit.
